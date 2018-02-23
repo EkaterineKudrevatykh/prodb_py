@@ -27,9 +27,9 @@ def func01(words):
            word.append(w)
         else:
            numb.append(w)
-word.sort()
-numb.sort()
-return word + numb
+    word.sort()
+    numb.sort()
+    return word + numb
   
     
 # 02. Отсортировать по последнему
